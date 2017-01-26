@@ -1,0 +1,13 @@
+{
+  "name": "hello_world_example",
+  "version": "1.0.0",
+  "description": "Hello World example",
+  "author": "Andrew Nease <andrew.nease.code@gmail.com",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "^4.0.0"
+  }
+}
