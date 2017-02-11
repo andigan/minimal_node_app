@@ -1,2 +1,2 @@
 
-Hello World example
+A minimal node app.
