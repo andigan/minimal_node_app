@@ -12,9 +12,9 @@ var server = app.listen(port, function () {
   console.log('Listening on port %d', server.address().port);
 });
 
-app.get('/', function (req, res) {
-  res.render('index.html');
+// Use '/' to go to index.html via static middleware
+
+// Use '/test' to send "test" as a response.
+app.get('/test', function (req, res) {
+  res.send('tested');
 });
-
-
-module.exports = app;
